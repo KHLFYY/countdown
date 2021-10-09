@@ -23,9 +23,9 @@ date: 2021-10-08 22:18:39
               h = addZero(h);
               m = addZero(m);
               s = addZero(s);
-              document.querySelector(".count").innerHTML = `2022高考倒计时  ${d}天 ${h} 时 ${m} 分 ${s} 秒`;
+              document.querySelector(".count").innerHTML = `${d}天 ${h} 时 ${m} 分 ${s} 秒`;
               if (lefttime <= 0) {
-                  document.querySelector(".count").innerHTML = "2022高考已开始";
+                  document.querySelector(".count").innerHTML = "2022年高考已开始";
                   return;
               }
               setTimeout(countDown, 1000);
@@ -36,4 +36,8 @@ date: 2021-10-08 22:18:39
 
 ---
 
-![emmm……](https://pic.imgdb.cn/item/616055b02ab3f51d9136bf1b.png)
+![emmm……](https://pic.imgdb.cn/item/616056592ab3f51d913823dd.png)
+
+---
+
+本项目Github仓库：[https://github.com/KHLFYY/countdown/](https://github.com/KHLFYY/countdown/)
