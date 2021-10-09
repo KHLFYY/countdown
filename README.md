@@ -1,7 +1,7 @@
 ## 博客项目：倒计时
 
 - 地址： <https://www.khlfyy.top/countdown/>
-- 源码：[index.md](/main/index.md) （请查看RAW）
+- 源码：[index.md](https://www.khlfyy.top/countdown/) （请查看RAW）
 
 ### 相关参数
 
