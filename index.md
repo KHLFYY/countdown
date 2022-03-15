@@ -13,7 +13,7 @@ date: 2021-10-08 22:18:39
           }
           function countDown() {
               var nowtime = new Date();
-              var endtime = new Date("2022/06/07,05:00:00");
+              var endtime = new Date("2022/06/07,00:00:00");
               var lefttime = parseInt((endtime.getTime() - nowtime.getTime()) / 1000);
               var d = parseInt(lefttime / (24*60*60))
               var h = parseInt(lefttime / (60 * 60) % 24);
@@ -33,6 +33,8 @@ date: 2021-10-08 22:18:39
         }
     </script>
 </body>
+
+> ☆此处采用终止时间为：2022/06/07 00:00:00
 
 ---
 
